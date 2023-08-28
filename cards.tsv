@@ -1,0 +1,12 @@
+ID	Title	Sentiment	Layout	Short	Long	Links	Scoring
+							
+	Technical Debt	-1	tech				scope:-1
+	Siloed experise	-1	team				xfunc:-1
+	External dependecies	-1	team				xfunc:-1
+							
+							
+	Vertical Slicing	+1	tool	Break down large stories/epics into slices of value			scope:+1
+	Iteration planning	+1	tool	Break down scope by planning for iterations. Setting goals and getting the team on-board			scope:+1
+	Retrospectives	+1	team	Improve ways-of-working by focusing on improvements and feedback			contimpr:+1
+							
+	Peer programming	+1	team	Improve team knowledge sharing and error detection by peer work			xfunc:+1

@@ -1,0 +1,80 @@
+<html>
+<head>
+  <style>
+    .table {
+        position: relative;
+        font-size: 13px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .card {
+        position: relative;
+        float: left;
+        width: 100px;
+        height: 140px;
+        background-color: #fefae0;
+        border: 3px solid #faedcd;
+        padding: 6px;
+        box-shadow: 3px 3px #d4a373;
+        margin-bottom: 8px;
+        border-radius: 8px;
+        margin-right: 8px;
+    }
+
+    /* Card styles */
+    .tech {
+        /* https://coolors.co/464655-94958b-b7b6c1-d5cfe1-eddfef */
+        background-color: #eddfef;
+        border: 3px solid #94958b;
+        box-shadow: 3px 3px #464655;
+    }
+
+    .team {
+        /* https://coolors.co/fae8eb-f6caca-e4c2c6-cd9fcc-0a014f */
+        background-color: #fae8eb;
+        border: 3px solid #f6caca;
+        box-shadow: 3px 3px #e4c2c6;
+    }
+
+    .scope {
+        background-color: #ffc857;
+        border: 3px solid #4b3f72;
+        box-shadow: 3px 3px #1f2041;
+    }
+
+    .card .title {
+        font-weight: bold;
+    }
+
+    .card .sign {
+        font-weight: bolder;
+        color: red;
+    }
+  </style>
+
+    <script type="text/javascript" src="lib/cards.js"></script>
+</head>
+
+<body>
+
+    <div id="hand" class="table">
+        &nbsp;
+    </div>
+    <div class="table">
+        <div class="card" draggable="true">
+            <span class="title">My first card</span>
+            <span class="sign">+1</span>
+            <span class="image">image<br/> here</span>
+            <span class="extra">small additional text</span>
+        </div>
+
+        <div class="card tool" draggable="true" style="top: 200px">
+            <span class="title">My first card</span>
+            <span class="sign">+1</span>
+            <span class="image">image<br/> here</span>
+            <span class="extra">small additional text</span>
+        </div>
+    </div>
+</body>
+
+</html>
